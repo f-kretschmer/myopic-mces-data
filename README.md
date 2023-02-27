@@ -8,6 +8,7 @@ MCES distances.
 |------------------------------------|--------------------------------------------------------------------------------------------|
 | `biostructures.csv`                | Biomolecular structures (SMILES and InChI-key first block)                                 |
 | `biostructures_20k.csv`            | Subsample of biomolecular structures used throughout the paper                             |
+| `subsampled_instances_20k.csv`     | Subsample of *pairs* of biomolecular structures used for runtime and threshold evaluations |
 | `mces_distances.npz`               | Compressed numpy-object containing all computed MCES distances alongside SMILES            |
 | `umap_df.csv`                      | Computed UMAP embeddings for various datasets                                              |
 | `umap_embedding_biostructures.pkl` | `umap-learn` object allowing projection of new structures onto the computed UMAP embedding |
