@@ -2,7 +2,7 @@
 
 This repository contains datasets from the Paper [Small molecule machine learning: All models are
 wrong, some may not even be helpful](https://doi) alongside Jupyter Notebooks for visualization of
-MCES distances. Files too large are hosted at [OSF](https://doi.org/10.17605/OSF.IO/5SXFE).
+MCES distances. Files too large for GitHub are hosted at [OSF](https://doi.org/10.17605/OSF.IO/5SXFE).
 
 | file                               | description                                                                                                                                                                          |
 |------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
