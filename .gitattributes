@@ -1,2 +1,0 @@
-mces_distances.npz filter=lfs diff=lfs merge=lfs -text
-umap_embedding_biostructures.pkl filter=lfs diff=lfs merge=lfs -text
