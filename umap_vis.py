@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 from rdkit.Chem import PandasTools
 from dash import dcc, html, Input, Output, no_update, Dash
-from rdkit.Chem import MolFromSmiles, Draw
+#from rdkit.Chem import MolFromSmiles, Draw
 
 app = Dash(__name__)
 server = app.server
@@ -24,11 +24,11 @@ def display_hover(hoverData):
     bbox = pt['bbox']
     smiles, = pt['customdata']
     ext_data = no_update
-    data = Draw._moltoimg(MolFromSmiles(smiles), (200, 200), [], '', returnPNG=True)
+    # data = Draw._moltoimg(MolFromSmiles(smiles), (200, 200), [], '', returnPNG=True)
     children = [
         html.Div([
-            html.Img(src=f'data:image/png;base64,{PandasTools._get_image(data)}'),
-            # html.P(f'SMILES: {smiles}', style={'font-size': '6px'}),
+            # html.Img(src=f'data:image/png;base64,{PandasTools._get_image(data)}'),
+            html.P(f'SMILES: {smiles}', style={'font-size': '6px'}),
         ], style={'width': '200px', 'white-space': 'normal'})
     ]
     return True, bbox, children, ext_data
