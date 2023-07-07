@@ -1,5 +1,5 @@
 umap-learn
-numba=0.53.1
+numba==0.53.1
 pandas
 plotly
 rdkit
