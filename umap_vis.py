@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import plotly.express as px
-from rdkit.Chem import PandasTools
+# from rdkit.Chem import PandasTools
 from dash import dcc, html, Input, Output, no_update, Dash, callback
 #from rdkit.Chem import MolFromSmiles, Draw
 
